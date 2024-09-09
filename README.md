@@ -21,3 +21,4 @@ docker-compose exec web alembic revision --autogenerate -m "init"
 docker-compose exec web alembic upgrade head
 ```
 
+всё по мотивам статьи https://testdriven.io/blog/fastapi-sqlmodel/ и https://habr.com/ru/articles/580866/
